@@ -1,0 +1,15 @@
+h1{
+    color:blanchedalmond
+}
+
+input{
+    padding: 10px;
+    border: 1px solid;
+}
+
+button{
+    padding: 7px;
+    border: 2px solid;
+    color: white;
+    background: tomato;
+}
