@@ -6,14 +6,6 @@ const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({extended: false}))
 
-// app.get('/', function (req, res) {
-// res.send('<h1>トップページ!!</h1>')
-// })
-
-// app.get('/about', function (req, res) {
-//     res.send('aboutページ')
-//     });
-
 app.post("/api/v1/quiz", function(req, res){
     const answer =  req.body.answer;
     if(answer === "2") {
